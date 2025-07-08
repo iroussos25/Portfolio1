@@ -295,3 +295,15 @@ z-index: 2;
     text-align: left;
     color: #fff;
 }
+
+.project {
+    margin-bottom: 135px;
+}
+
+.project:last-child{
+    margin-bottom: 40px;
+}
+
+/*FOOTER*/
+footer {
+bAckground-color: #242424;
