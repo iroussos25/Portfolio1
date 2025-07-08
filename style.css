@@ -45,6 +45,20 @@ h1 {
     font-weight: 700;
     margin-bottom: 16px;
 }
+
+.container {    
+    padding: 50px 0;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
+
+.section
+section :nth-child(even)
+{
+background-color: #f8f8f8;
+}
 /*NAVIGATION BAR*/
 nav {
     height: 100px;
@@ -146,4 +160,51 @@ nav {
 .about-me__img {
     width: 100%;
 }
+/*TECH-STACK*/
+
+.language__img {
+    width: 100%;
+max-width: 100px;
+transition: all 0.3s ease-in-out;
+}
+.language:hover .language__img{
+    filter: brightness(0.8);
+    opacity:0.86;
+    transform: scale(0.9);
+}
+
+.language__img--wrapper {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 25px; 16px;
+
+}
+
+.language {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.language__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     
+}
+
+.language__name {
+    position: absolute;
+    bottom: 0  ;
+    transform: scale(0) ;
+    transition: all 0.3s ease-in-out;
+}
+
+.language:hover .language__name {
+    transform: scale(1);
+
+}
+
