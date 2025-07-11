@@ -58,6 +58,21 @@ h1 {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.link__hover-effect:after {
+    content: "" ;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    bottom: -3px;
+
+}
+
 .section
 section :nth-child(even)
 {
@@ -71,75 +86,76 @@ nav {
     margin : 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+}
 
-    .nav__link--list {
-        display: flex;
-    }
+.nav__link--list {
+    display: flex;
+}
 
-    .nav__link--anchor {
-        margin: 0 12px;
-        color: #242424;
-        text-decoration: none;
-        font-weight: 700;
-    }
+.nav__link--anchor {
+    margin: 0 12px;
+    color: #242424;
+    text-decoration: none;
+    font-weight: 700;
+}
 
-    .nav__link--anchor--primary {
-        background-color: #6030b1;
-        padding: 8px 20px;
-        border-radius: 50px;
-        color: white;
-        transition: background-color 0.3s ease-in-out;
-    }
+.nav__link--anchor--primary {
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
 
-    .nav__link--anchor--primary:hover {
-        background-color: #5d3eff;
-    }
+.nav__link--anchor--primary:hover {
+    background-color: #5d3eff;
+}
 
-    .personal__logo {
-        font-size: 24px;
-        color: #6030b1;
-        margin: 0 12px;
-        font-weight: bold;
-    }
+.personal__logo {
+    font-size: 24px;
+    color: #6030b1;
+    margin: 0 12px;
+    font-weight: bold;
+}
 
-    /*ABOUT ME*/
+/*ABOUT ME*/
 
-    #about-me {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-    .about-me__info {
-        display: flex;
-        flex-direction: column;
-    }
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
 
-    .about-me__info--container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 600px;
-        margin: 0 auto;
-        text-align: center;
-    }
+.about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-    .about-me__picture--mask {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        overflow: hidden;
-        box-shadow: 8px 16px rgba(0, 0, 0, 0.16);
+.about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 8px 16px rgba(0, 0, 0, 0.16);
         margin-bottom: 28px;
-
+        
     }
-
+    
     .about-me__picture {
         width: 100%;
-
+        
     }
-
+    
     .about-me__info--title {
         font-size: 36px;
         margin-bottom: 16px;
@@ -282,7 +298,7 @@ z-index: 2;
 
 
 .project__description--para {
-    margin 16px 0;
+    margin: 16px 0;
     
 }
 
